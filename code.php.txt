@@ -1,0 +1,5 @@
+&lt;?php
+$file = fopen(“WT.txt”,”r”) or die(“File cannot be opened”);
+fread($file,filesize(&quot;WT.txt”));
+fclose(“$file”);
+?&gt;
